@@ -2,25 +2,75 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Desafios de HTML e CSS</title>
+  <title>Exercícios de HTML e CSS</title>
+  <style>
+    /* Reset simples */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: #f0f4f8;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+      color: #333;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .ex-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .ex-list a {
+      display: block;
+      background: #007acc;
+      color: #fff;
+      text-decoration: none;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .ex-list a:hover {
+      background: #005ea6;
+      transform: translateY(-3px);
+    }
+  </style>
 </head>
 <body>
   <h1>Desafios de HTML e CSS</h1>
-  <ul>
-    <li><a href="d001/index.html">Desafio 01</a></li>
-    <li><a href="d002/index.html">Desafio 02</a></li>
-    <li><a href="d003/index.html">Desafio 03</a></li>
-    <li><a href="d004/index.html">Desafio 04</a></li>
-    <li><a href="d005/index.html">Desafio 05</a></li>
-    <li><a href="d006/index.html">Desafio 06</a></li>
-    <li><a href="d007/index.html">Desafio 07</a></li>
-    <li><a href="d008/index.html">Desafio 08</a></li>
-    <li><a href="d009/index.html">Desafio 09</a></li>
-    <li><a href="d010/android.html">Desafio 10</a></li>
-    <li><a href="d012/index.html">Desafio 11</a></li>
-    <li><a href="d013/desafio 13 - 01.html">Desafio 12</a></li>
-    <li><a href="d013/desafio 13 - 02.html">Desafio 13</a></li>
-    <li><a href="d014/index.html">Desafio 14</a></li>
-  </ul>
+  <div class="ex-list">
+    <a href="d001/index.html">Desafio 01</a>
+    <a href="d002/index.html">Desafio 02</a>
+    <a href="d003/index.html">Desafio 03</a>
+    <a href="d004/index.html">Desafio 04</a>
+    <a href="d005/index.html">Desafio 05</a>
+    <a href="d006/index.html">Desafio 06</a>
+    <a href="d007/index.html">Desafio 07</a>
+    <a href="d008/index.html">Desafio 08</a>
+    <a href="d009/index.html">Desafio 09</a>
+    <a href="d010/android.html">Desafio 10</a>
+    <a href="d012/index.html">Desafio 11</a>
+    <a href="d013/desafio 13 - 01.html">Desafio 12</a>
+    <a href="d013/desafio 13 - 02.html">Desafio 13</a>
+    <a href="d014/index.html">Desafio 14</a>
+  </div>
 </body>
 </html>

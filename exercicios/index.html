@@ -3,40 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Exercícios de HTML e CSS</title>
+  <style>
+    /* Reset simples */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: #f0f4f8;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+      color: #333;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .ex-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .ex-list a {
+      display: block;
+      background: #007acc;
+      color: #fff;
+      text-decoration: none;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .ex-list a:hover {
+      background: #005ea6;
+      transform: translateY(-3px);
+    }
+  </style>
 </head>
 <body>
   <h1>Exercícios de HTML e CSS</h1>
-  <ul>
-    <li><a href="ex001/">Exercício 01</a></li>
-    <li><a href="ex002/">Exercício 02</a></li>
-    <li><a href="ex003/">Exercício 03</a></li>
-    <li><a href="ex004/">Exercício 04</a></li>
-    <li><a href="ex006/">Exercício 05</a></li>
-    <li><a href="ex007/">Exercício 06</a></li>
-    <li><a href="ex008/">Exercício 07</a></li>
-    <li><a href="ex008b/">Exercício 08</a></li>
-    <li><a href="ex009/">Exercício 09</a></li>
-    <li><a href="ex010/">Exercício 10</a></li>
-    <li><a href="ex011/">Exercício 11</a></li>
-    <li><a href="ex012/">Exercício 12</a></li>
-    <li><a href="ex013/">Exercício 13</a></li>
-    <li><a href="ex014/">Exercício 14</a></li>
-    <li><a href="ex015/">Exercício 15</a></li>
-    <li><a href="ex016/">Exercício 16</a></li>
-    <li><a href="ex017/">Exercício 17</a></li>
-    <li><a href="ex018/">Exercício 18</a></li>
-    <li><a href="ex019/">Exercício 19</a></li>
-    <li><a href="ex020/">Exercício 20</a></li>
-    <li><a href="ex021/">Exercício 21</a></li>
-    <li><a href="ex022/">Exercício 22</a></li>
-    <li><a href="ex023/">Exercício 23</a></li>
-    <li><a href="ex024/">Exercício 24</a></li>
-    <li><a href="ex025/">Exercício 25</a></li>
-    <li><a href="ex026/">Exercício 26</a></li>
-    <li><a href="ex027/">Exercício 27</a></li>
-
-
-
-  </ul>
+  <div class="ex-list">
+    <a href="ex001/">Exercício 01</a>
+    <a href="ex002/">Exercício 02</a>
+    <a href="ex003/">Exercício 03</a>
+    <a href="ex004/">Exercício 04</a>
+    <a href="ex006/">Exercício 05</a>
+    <a href="ex007/">Exercício 06</a>
+    <a href="ex008/">Exercício 07</a>
+    <a href="ex008b/">Exercício 08</a>
+    <a href="ex009/">Exercício 09</a>
+    <a href="ex010/">Exercício 10</a>
+    <a href="ex011/">Exercício 11</a>
+    <a href="ex012/">Exercício 12</a>
+    <a href="ex013/">Exercício 13</a>
+    <a href="ex014/">Exercício 14</a>
+    <a href="ex015/">Exercício 15</a>
+    <a href="ex016/">Exercício 16</a>
+    <a href="ex017/">Exercício 17</a>
+    <a href="ex018/">Exercício 18</a>
+    <a href="ex019/">Exercício 19</a>
+    <a href="ex020/">Exercício 20</a>
+    <a href="ex021/">Exercício 21</a>
+    <a href="ex022/">Exercício 22</a>
+    <a href="ex023/">Exercício 23</a>
+    <a href="ex024/">Exercício 24</a>
+    <a href="ex025/">Exercício 25</a>
+    <a href="ex026/">Exercício 26</a>
+    <a href="ex027/">Exercício 27</a>
+  </div>
 </body>
 </html>
