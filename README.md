@@ -15,8 +15,8 @@ Aqui estou aprendendo a criar **sites** do zero e também a **gerenciar meus rep
 
 ## 📝 Exercícios e Desafios
 
-- [Acesse aqui os Exercícios](exercicios/index.html)
-- [Acesse aqui os Desafios](desafios/index.html)
+- [Acesse aqui os Exercícios]([exercicios/index.html](https://behnascimentoo.github.io/html-css/exercicios/index.html))
+- [Acesse aqui os Desafios]([desafios/index.html](https://behnascimentoo.github.io/html-css/desafios/index.html))
 
 ---
 
