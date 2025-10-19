@@ -13,10 +13,10 @@ Aqui estou aprendendo a criar **sites** do zero e também a **gerenciar meus rep
 
 ---
 
-## 📝 Exercícios
+## 📝 Exercícios e Desafios
 
-- **Exercício 001**: Primeiro exercício do curso, aplicado para fixar conceitos iniciais.  
-- Prática de tags HTML básicas, estrutura semântica e estilização inicial com CSS.
+- [Acesse aqui os Exercícios](exercicios/index.html)
+- [Acesse aqui os Desafios](desafios/index.html)
 
 ---
 
